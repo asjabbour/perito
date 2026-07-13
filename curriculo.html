@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Currículo · Alexandre S Jabbour · Perito Judicial</title>
+<meta name="description" content="Currículo de Alexandre Salarini Jabbour — Engenheiro Civil, CREA-RJ, Perito Judicial. Experiência, acervo técnico e qualificações.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Alexandre S Jabbour · Perito Judicial">
+<meta property="og:title" content="Currículo · Alexandre S Jabbour · Perito Judicial">
+<meta property="og:description" content="Engenheiro Civil · CREA-RJ · Perito Judicial — resumo, experiência e acervo técnico.">
+<meta property="og:url" content="https://asjabbour.github.io/perito/curriculo.html">
+<meta property="og:image" content="https://asjabbour.github.io/perito/og-cover5.png?v=6">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#112338; --navy2:#0e1d30; --card:#152a43;
+  --gold:#e3c97d; --gold-soft:rgba(227,201,125,.45); --gold-line:rgba(227,201,125,.28);
+  --cream:#f6f2e9; --muted:#a9bacb; --sub:#8ea0b3;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--navy);
+  color:var(--cream);
+  font-family:'Archivo',-apple-system,BlinkMacSystemFont,sans-serif;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px 70px}
+
+/* Header */
+.hero{padding:54px 0 30px;text-align:center;position:relative}
+.emblem{width:96px;height:96px;margin:0 auto 20px;display:block}
+.role{font-size:12.5px;letter-spacing:5px;text-transform:uppercase;color:var(--gold);font-weight:600}
+h1{font-family:'Spectral',serif;font-weight:500;font-size:clamp(34px,7vw,58px);line-height:1.05;margin:12px 0 14px;letter-spacing:.3px}
+.contact{color:var(--muted);font-size:15px;letter-spacing:.2px}
+.contact a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--gold-line)}
+.divider{display:flex;align-items:center;justify-content:center;gap:14px;margin:26px 0 4px}
+.divider span{height:1px;width:54px;background:var(--gold-line)}
+.divider i{width:7px;height:7px;transform:rotate(45deg);background:var(--gold);display:block}
+
+/* Buttons */
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:26px}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:12px 24px;border-radius:3px;font-size:13px;letter-spacing:1.4px;text-transform:uppercase;font-weight:600;text-decoration:none;transition:.18s}
+.btn-primary{background:var(--gold);color:#20180a}
+.btn-primary:hover{background:#eed596;transform:translateY(-1px)}
+.btn-ghost{border:1px solid var(--gold-soft);color:var(--gold)}
+.btn-ghost:hover{background:rgba(227,201,125,.10)}
+
+/* Sections */
+section{margin-top:44px}
+.sec-head{display:flex;align-items:center;gap:18px;margin-bottom:22px}
+.sec-head h2{font-family:'Archivo',sans-serif;font-weight:600;font-size:13px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);white-space:nowrap}
+.sec-head .rule{flex:1;height:1px;background:var(--gold-line)}
+
+.lead{font-size:16.5px;color:#e7e0d2;line-height:1.72;max-width:760px}
+
+.edu{list-style:none;display:grid;gap:12px}
+.edu li{display:flex;gap:12px;align-items:flex-start;font-size:16px}
+.edu li::before{content:"";flex:none;width:7px;height:7px;margin-top:9px;transform:rotate(45deg);background:var(--gold)}
+.edu b{font-weight:600;color:var(--cream)}
+.edu .inst{color:var(--gold);font-weight:500}
+
+.exp-role{font-family:'Spectral',serif;font-size:21px;font-weight:600;color:var(--cream);margin-bottom:4px}
+.exp-org{color:var(--gold);font-weight:600;letter-spacing:.4px;font-size:13.5px;text-transform:uppercase}
+.exp ul{list-style:none;margin-top:16px;display:grid;gap:12px}
+.exp ul li{position:relative;padding-left:22px;color:#dcd6c8;font-size:15.5px}
+.exp ul li::before{content:"";position:absolute;left:0;top:9px;width:8px;height:2px;background:var(--gold)}
+
+/* Acervo */
+.acervo{display:grid;gap:14px}
+.item{background:var(--card);border:1px solid rgba(227,201,125,.12);border-left:3px solid var(--gold);border-radius:4px;padding:14px 18px}
+.item .top{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:3px}
+.item .client{font-family:'Spectral',serif;font-weight:600;font-size:17px;color:var(--cream)}
+.item .year{font-size:11.5px;font-weight:600;letter-spacing:1px;color:var(--gold);background:rgba(227,201,125,.12);border:1px solid var(--gold-line);padding:2px 9px;border-radius:20px;white-space:nowrap}
+.item .desc{color:var(--muted);font-size:14.5px;line-height:1.55}
+
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{background:var(--card);border:1px solid rgba(227,201,125,.14);border-radius:24px;padding:9px 16px;font-size:14px;color:#e2dccd}
+.chip b{color:var(--gold);font-weight:600}
+
+.two{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+@media(max-width:640px){.two{grid-template-columns:1fr;gap:34px}}
+
+footer{margin-top:56px;padding-top:26px;border-top:1px solid var(--gold-line);text-align:center;color:var(--sub);font-size:13.5px;letter-spacing:.3px}
+footer a{color:var(--gold);text-decoration:none}
+.back{display:inline-block;margin-top:12px;color:var(--muted);text-decoration:none;font-size:14px}
+.back:hover{color:var(--gold)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <svg class="emblem" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="54" cy="54" r="52.5" fill="none" stroke="#e3c97d" stroke-width="2.4"/>
+      <circle cx="54" cy="54" r="44" fill="none" stroke="#e3c97d" stroke-opacity="0.4" stroke-width="1.2"/>
+      <g stroke="#e3c97d" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="54" cy="30" r="4" fill="#112338"/>
+        <line x1="54" y1="34" x2="38" y2="78"/>
+        <line x1="54" y1="34" x2="70" y2="78"/>
+        <line x1="32" y1="62" x2="76" y2="62"/>
+        <path d="M35 78 L41 78"/>
+        <path d="M67 78 L73 78"/>
+      </g>
+    </svg>
+    <div class="role">Perito Judicial</div>
+    <h1>Alexandre Salarini Jabbour</h1>
+    <div class="contact">Engenheiro Civil · CREA-RJ &nbsp;·&nbsp; Rio de Janeiro, RJ<br>
+      <a href="https://wa.me/5521982087526" target="_blank" rel="noopener">+55 21 98208-7526</a>
+      &nbsp;·&nbsp;
+      <a href="mailto:asjabbour@gmail.com">asjabbour@gmail.com</a>
+    </div>
+    <div class="divider"><span></span><i></i><span></span></div>
+    <div class="actions">
+      <a class="btn btn-primary" href="CV_Alexandre_Jabbour.pdf" target="_blank" rel="noopener">Baixar currículo (PDF)</a>
+      <a class="btn btn-ghost" href="index.html">Voltar ao cartão</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-head"><h2>Resumo Profissional</h2><div class="rule"></div></div>
+    <p class="lead">Engenheiro Civil com vasta experiência na execução, acompanhamento e responsabilidade técnica de obras de engenharia de grande porte. Experiência em processos construtivos abrangendo infraestrutura urbana, edificações, fundações, contenções, impermeabilizações, reservatórios, estações de tratamento de esgoto, pavimentação, estruturas metálicas, reformas e restaurações em patrimônio tombado. Possui sólida capacidade técnica voltada para o cumprimento de normas da ABNT, com aptidão e formação técnica para atuação em Perícia Judicial, análise de patologias construtivas, emissão de laudos técnicos, autovistorias prediais e análise minuciosa de quantitativos e orçamentos (SINAPI, EMOP, SICRO).</p>
+  </section>
+
+  <div class="two">
+    <section style="margin-top:44px">
+      <div class="sec-head"><h2>Formação</h2><div class="rule"></div></div>
+      <ul class="edu">
+        <li><span><b>MBA em Projeto, Execução e Desempenho de Estruturas e Fundações</b> — <span class="inst">IPOG</span></span></li>
+        <li><span><b>MBA em Gestão de Negócios Imobiliários e da Construção Civil</b> — <span class="inst">FGV</span></span></li>
+        <li><span><b>Bacharelado em Engenharia Civil</b> — <span class="inst">UFRJ</span></span></li>
+      </ul>
+    </section>
+
+    <section style="margin-top:44px">
+      <div class="sec-head"><h2>Cursos de Extensão</h2><div class="rule"></div></div>
+      <ul class="edu">
+        <li><span><b>Formação de Peritos Judiciais</b> — <span class="inst">Curso Beta (2020)</span></span></li>
+        <li><span><b>Legislação Urbana da Cidade do Rio de Janeiro</b> — <span class="inst">Instituto Bramante</span></span></li>
+      </ul>
+    </section>
+  </div>
+
+  <section class="exp">
+    <div class="sec-head"><h2>Experiência Profissional</h2><div class="rule"></div></div>
+    <div class="exp-role">Engenheiro Civil / Responsável Técnico</div>
+    <div class="exp-org">Espectro Engenharia</div>
+    <ul>
+      <li>Atuação na responsabilidade técnica e execução de obras civis públicas e privadas, garantindo a aplicação rigorosa das normas técnicas de engenharia (ABNT) e o controle de qualidade dos materiais e serviços.</li>
+      <li>Elaboração de laudos técnicos de engenharia, relatórios fotográficos, vistorias de manifestações patológicas e laudos de Autovistoria Predial (Lei Complementar nº 126/2013).</li>
+      <li>Elaboração de orçamentos detalhados, levantamento de quantitativos a partir de projetos executivos e análise de composições de custos unitários.</li>
+      <li>Elaboração e conferência de medições de obras, elaboração de pleitos contratuais, aditivos físico-financeiros e elaboração de acervos técnicos (CAT).</li>
+      <li>Análise técnica de projetos multidisciplinares, compatibilização e viabilização de métodos construtivos.</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Conhecimentos Específicos</h2><div class="rule"></div></div>
+    <div class="chips">
+      <span class="chip">Laudos Técnicos e Vistorias Prediais</span>
+      <span class="chip">Patologias em Estruturas de Concreto</span>
+      <span class="chip">Análise Estrutural · projetos em <b>AutoCAD</b></span>
+      <span class="chip">Orçamentos e custos <b>(SINAPI, EMOP, SICRO)</b></span>
+      <span class="chip">Sistema regulatório <b>CONFEA/CREA</b></span>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Acervo Técnico e Experiência em Obras</h2><div class="rule"></div></div>
+    <div class="acervo">
+      <div class="item"><div class="top"><span class="client">CEDAE</span><span class="year">2026</span></div><div class="desc">Restauração e Revitalização com Acréscimo de Área do Chafariz da Glória.</div></div>
+      <div class="item"><div class="top"><span class="client">CEDAE</span><span class="year">2015</span></div><div class="desc">Obra de Reforço no Abastecimento de Água de São João de Meriti e Duque de Caxias.</div></div>
+      <div class="item"><div class="top"><span class="client">Condomínio Mar de Minas</span><span class="year">2015</span></div><div class="desc">Elaboração de Projeto de Arquitetura de Prédio Residencial Multifamiliar.</div></div>
+      <div class="item"><div class="top"><span class="client">Exército</span><span class="year">2026</span></div><div class="desc">Obra Remanescente da Ampliação do Pavilhão CEBIT da Escola de Artilharia de Costa e Anti Aérea (EsACosAAe) — Contrato 25/2025.</div></div>
+      <div class="item"><div class="top"><span class="client">Exército</span><span class="year">2012</span></div><div class="desc">Construção do Parque Aquático do Centro de Capacitação Física do Exército, na Urca, Rio de Janeiro/RJ.</div></div>
+      <div class="item"><div class="top"><span class="client">Exército — 5º Grupamento de Engenharia</span><span class="year">2021</span></div><div class="desc">Projetos Executivos de Esgoto e Drenagem em BIM e Construção da Rede de Águas Pluviais e Esgoto Sanitário da Vila Militar de Deodoro — Lote 08.</div></div>
+      <div class="item"><div class="top"><span class="client">Espectro Engenharia</span><span class="year">2015</span></div><div class="desc">Reforma, Pintura, Instalações e Troca de Piso das Salas Comerciais 1501 e 1502.</div></div>
+      <div class="item"><div class="top"><span class="client">FIOCRUZ</span><span class="year">Em andamento</span></div><div class="desc">Construção de novo muro de divisa do Campus Maré e adequações em seu entorno — Contrato 16/2026.</div></div>
+      <div class="item"><div class="top"><span class="client">FIOCRUZ</span><span class="year">2020</span></div><div class="desc">Adequação de Passeios à Acessibilidade e Reestruturação de Redes de Infraestrutura (Esgoto, Águas Pluviais, Água Potável e de Reuso, Combate a Incêndio, Irrigação, Telecomunicações e Elétrica) em Trechos do Campus Manguinhos/Fiocruz.</div></div>
+      <div class="item"><div class="top"><span class="client">FIRJAN</span><span class="year">2021</span></div><div class="desc">Implantação do Anexo II da Casa Firjan e Restauração de Edificação Preservada nas Dependências da Unidade Firjan Sesi Botafogo.</div></div>
+      <div class="item"><div class="top"><span class="client">FIRJAN</span><span class="year">2017</span></div><div class="desc">Execução de Infraestrutura, Instalações, Pavimentação e Paisagismo dos Jardins da Casa Sesi.</div></div>
+      <div class="item"><div class="top"><span class="client">GEORIO</span><span class="year">2014</span></div><div class="desc">Obra de Contenção de Encostas e Drenagens nas Comunidades Vila Santa Alexandrina, Catumbi e Morro do Bananal, Rio Comprido e Tijuca — III e VIII AR AP-1.1 e AP-2.2.</div></div>
+      <div class="item"><div class="top"><span class="client">Jamile Empreendimentos Imobiliários</span><span class="year">2015</span></div><div class="desc">Elaboração dos Cálculos e dos Quadros I a VIII da NBR 12.721-2006 do Edifício Residencial à Rua Emília Sampaio nº 38 — Vila Isabel, Rio de Janeiro.</div></div>
+      <div class="item"><div class="top"><span class="client">Marinha</span><span class="year">Em andamento</span></div><div class="desc">Serviços de Recuperação do Telhado do Armazém 02, do Depósito de Sobressalentes da Marinha no Rio de Janeiro — DepsMRJ.</div></div>
+      <div class="item"><div class="top"><span class="client">Prefeitura do Rio de Janeiro</span><span class="year">2024</span></div><div class="desc">Obras de Infraestrutura e Reurbanização, com Implantação de Quiosques, na Rua Via Light Rio das Pedras, Itanhangá — I/SUBI/CGO/2ªGO, XXIV RA, AP 4.2.</div></div>
+      <div class="item"><div class="top"><span class="client">Prefeitura do Rio de Janeiro</span><span class="year">2022</span></div><div class="desc">Construção das 4 Escolas Olímpicas com Retirada e Remoção Parcial de Equipamentos e Materiais das Arenas do Handebol e Aquático.</div></div>
+      <div class="item"><div class="top"><span class="client">Prefeitura do Rio de Janeiro</span><span class="year">2014</span></div><div class="desc">Bairro Maravilha Oeste — Pavimentação, Drenagem e Saneamento na Rua Poeraba e Adjacentes, Inhoaíba — O/SUBOP/CGO/4ª GO, XVIIIª RA, AP 5.</div></div>
+      <div class="item"><div class="top"><span class="client">Prefeitura do Rio de Janeiro</span><span class="year">2014</span></div><div class="desc">Bairro Maravilha Oeste — Pavimentação, Drenagem e Saneamento na Rua Francisco Brusque e Adjacentes, Jardim Guaratiba — O/SUBOP/CGO/4ª GO, XXVI AR, AP 5.</div></div>
+      <div class="item"><div class="top"><span class="client">RB Lamartine</span><span class="year">2021</span></div><div class="desc">Elaboração de Laudo de Autovistoria Predial em conformidade com a Lei Complementar nº 126/2013 e o Decreto nº 37.426/2013 do Município do Rio de Janeiro.</div></div>
+      <div class="item"><div class="top"><span class="client">Residencial Dom Getúlio</span><span class="year">2015</span></div><div class="desc">Modificação de Projeto Aprovado para Construção de Edifício Residencial Multifamiliar com 20 Unidades — Rua Getúlio nº 169, Engenho Novo, XIII RA, Rio de Janeiro/RJ.</div></div>
+      <div class="item"><div class="top"><span class="client">Residencial Getúlio Empreendimentos Imobiliários SPE Ltda</span><span class="year">2017</span></div><div class="desc">Elaboração e Cálculo dos Quadros de Área da NB 12.721 para Arquivo de Memorial de Incorporação no RGI.</div></div>
+      <div class="item"><div class="top"><span class="client">Roberta Vidal de Abreu</span><span class="year">2021</span></div><div class="desc">Laudo de Verificação de Manifestação Patológica em Estrutura de Concreto Armado — LT 004/2021.</div></div>
+      <div class="item"><div class="top"><span class="client">SAAE</span><span class="year">2020</span></div><div class="desc">Implantação do Sistema de Rede Coletora de Esgoto Sanitário, 2º Módulo da ETE e Recuperação da ETE (existente) e EE Final do Bairro de Monsuaba — 1º Distrito de Angra dos Reis.</div></div>
+      <div class="item"><div class="top"><span class="client">SENAI</span><span class="year">2019</span></div><div class="desc">Reforma do Refeitório (Bloco E) e Adequação da Unidade ao Projeto de Segurança Contra Incêndio e Pânico — Firjan Senai de Tecnologia, Automação e Simulação (IST).</div></div>
+      <div class="item"><div class="top"><span class="client">SEOBRAS</span><span class="year">2014</span></div><div class="desc">Obras de Recuperação de Vias Municipais e de Rede de Drenagem Pluvial no Município de Seropédica/RJ.</div></div>
+      <div class="item"><div class="top"><span class="client">SEOBRAS</span><span class="year">2014</span></div><div class="desc">Obras de Recuperação de Vias Municipais, Dragagem do Valão dos Bois e Recuperação de Rede de Drenagem Pluvial no Município de Seropédica/RJ.</div></div>
+      <div class="item"><div class="top"><span class="client">SESC</span><span class="year">2021</span></div><div class="desc">Adequação da Iluminação Externa e Recuperação dos Sistemas de Proteção Contra Descargas Atmosféricas (SPDA) do Polo Educacional Sesc.</div></div>
+      <div class="item"><div class="top"><span class="client">SESC</span><span class="year">2019</span></div><div class="desc">Implementação de Instalações Especiais na Galeria Técnica da Escola Sesc de Ensino Médio.</div></div>
+      <div class="item"><div class="top"><span class="client">SESC</span><span class="year">2019</span></div><div class="desc">Reforço de Fundação dos Alojamentos dos Alunos, Vestiários da Piscina e Acessos da Portaria, e Recuperação e Urbanização da Fase 3.</div></div>
+      <div class="item"><div class="top"><span class="client">SESC</span><span class="year">2019</span></div><div class="desc">Adequação e Reparos da Estrutura do Telhado e Readequação das Instalações de Iluminação e Sonorização no Ginásio.</div></div>
+      <div class="item"><div class="top"><span class="client">SESC</span><span class="year">2018</span></div><div class="desc">Primeira Fase da Obra Civil de Construção do Novo Centro Cultural Sesc Paraty.</div></div>
+      <div class="item"><div class="top"><span class="client">UFF</span><span class="year">2021</span></div><div class="desc">Construção de um Prédio de 07 Pavimentos mais um Pavimento de Cobertura — Campus Valonguinho.</div></div>
+      <div class="item"><div class="top"><span class="client">UFRJ</span><span class="year">2012</span></div><div class="desc">Construção de Edificação do Complexo Acadêmico CFCH-CCJE-CLA/UFRJ — Cidade Universitária/RJ.</div></div>
+    </div>
+  </section>
+
+  <footer>
+    Alexandre Salarini Jabbour · Engenheiro Civil · Perito Judicial · CREA-RJ<br>
+    <a href="https://wa.me/5521982087526" target="_blank" rel="noopener">WhatsApp (21) 98208-7526</a> &nbsp;·&nbsp;
+    <a href="mailto:asjabbour@gmail.com">asjabbour@gmail.com</a>
+    <br><a class="back" href="index.html">← Voltar ao cartão de apresentação</a>
+  </footer>
+
+</div>
+</body>
+</html>
